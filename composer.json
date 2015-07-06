@@ -1,0 +1,25 @@
+{
+    "name": "enjoyinformatica/zoho-connect",
+    "description": "Provê acesso as apis Zoho",
+    "keywords": ["zoho","zoho api","zohoconnect", "zohosupport"],
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "Enjoy Informatica",
+            "email": "desenvolvimento@sistemaaula.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zend-http": "@stable"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
+
