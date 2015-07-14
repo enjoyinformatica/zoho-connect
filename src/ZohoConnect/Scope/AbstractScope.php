@@ -86,7 +86,7 @@ abstract class AbstractScope
                 break;
         }
 
-        $client = new Client();
+        $client = new Client(null, array('sslverifypeer' => false));
         $client->dispatch($request);
         return $client->getResponse();
     }
