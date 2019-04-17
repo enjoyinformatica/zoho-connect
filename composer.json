@@ -2,7 +2,7 @@
     "name": "enjoyinformatica/zoho-connect",
     "description": "Provê acesso as apis Zoho",
     "keywords": ["zoho","zoho api","zohoconnect", "zohosupport"],
-    "license": "Apache2",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Enjoy Informatica",
